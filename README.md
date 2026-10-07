@@ -1,10 +1,10 @@
-This is a follow-up study of Aguti et al.(2026), who tested the different docking software on the structure of MALAT-1, a well-studied long non-coding RNA involved in an extended list of diseases, when bound by a recently synthesized library of 21 diminazene-based ligands determined experimentally to be compatible with the structure of the RNA molecule. They found AutoDock to be the software capable of discriminating between the molecules of different affinities, with some limitations.
+This is a follow-up study of Aguti et al.(2026), who tested the different docking software on the structure of MALAT-1, a well-studied long non-coding RNA, when bound by a recently synthesized library of 21 diminazene-based ligands determined experimentally to be compatible with the structure of the RNA molecule. They found AutoDock to be the software capable of discriminating between the molecules of different affinities, with some limitations.
 
 The aim of this work is to test the thermodynamic stability, using molecular dynamics (MD) simulations, of three different conformations of MALAT-1 bound by the best-scoring docking poses of ligand p0, the parent compound of the previously mentioned library which shows moderate affinity. The MD results are meant to be compared with the docking calculations performed by Aguti et al.
 
 The results of this thesis find the AutoDock calculations as accurate, proving that computational techniques developed for protein targets can also be used on RNA molecules with satisfactory levels of accuracy. 
 
-The available Jupyter notebooks allow to compute the following analysis of the trajectories obtained from  molecular dynamics simulations carried out with Gromacs. 
+The available Jupyter notebooks allow to compute the following analysis of the trajectories obtained from  molecular dynamics simulations carried out with Gromacs:
 
 - PCA used to extract the most informative features of the atomic coordinates obtained during the simulations. The atom type chosen for carrying out the computations is C2 of the ribose ring. The results of PCA are clusters, whose placement in the plot tell us how similar they are. The further away the clusters are, the less similar. The Python library used was scikit-learn, version 1.8.
 
